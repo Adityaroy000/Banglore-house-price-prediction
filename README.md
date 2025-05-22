@@ -24,14 +24,7 @@ The goal of this project is to:
 
 ---
 
-## 📁 Project Structure
-
-Bangalore-House-Price-Prediction/
-├── bhp.ipynb                       # Main Jupyter notebook with all steps
-├── Bengaluru_House_Data.csv       # Original dataset
-├── banglore_home_prices_model.pickle  # Trained Linear Regression model
-└── columns.json                   # Metadata with feature names used by the model
-
+<pre> ## 📁 Project Structure ``` Bangalore-House-Price-Prediction/ ├── bhp.ipynb # Main Jupyter notebook with all steps ├── Bengaluru_House_Data.csv # Original dataset ├── banglore_home_prices_model.pickle # Trained Linear Regression model └── columns.json # Metadata with feature names used by the model ``` </pre>
 ---
 
 ## 🚀 How to Run
