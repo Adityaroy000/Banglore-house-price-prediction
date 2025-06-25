@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banglore House Price Prediction App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="img-blur"></div>
+    <div class="main-box">
+        <div class="first-box">
+            <div class="text">
+                <h2>Area (Sqaure Feet)</h2>
+            </div>
+            <input class="user-input" type="number" value="1000">
+        </div>
+        <div class="second-box bhk-bath">
+            <div class="text">
+                <h2>BHK</h2>
+            </div>
+            <div class="btn bhk">
+                <button class="number-btn bhk-btn">1</button>
+                <button class="number-btn bhk-btn">2</button>
+                <button class="number-btn bhk-btn">3</button>
+                <button class="number-btn bhk-btn">4</button>
+                <button class="number-btn bhk-btn">5</button>
+            </div>
+        </div>
+        <div class="third-box bhk-bath">
+            <div class="text">
+                <h2>Bath</h2>
+            </div>
+            <div class="btn bath">
+                <button class="number-btn bath-btn">1</button>
+                <button class="number-btn bath-btn">2</button>
+                <button class="number-btn bath-btn">3</button>
+                <button class="number-btn bath-btn">4</button>
+                <button class="number-btn bath-btn">5</button>
+            </div>
+        </div>
+        <div class="fourth-box">
+            <h2>Location</h2>
+            <select class="location">
+                <option disabled="disabled" selected="selected">Choose a Location</option>
+            </select>
+        </div>
+        <div class="price-btn">
+            Estimate Price
+        </div>
+        <div class="predicted-price">
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
